@@ -1,0 +1,28 @@
+<div class="masthead">
+  <a href="{{ site.url }}">
+    <h2 class="text-muted">www.dentysta-irlandia.eu</h2>
+  </a>
+  <h4 class="text-muted">Polski dentysta w Irlandii<h4>
+  <h5>
+  <ul class="nav nav-justified">
+    {% if page.url == "/index.html" %}
+    <li class="active">
+    {% else %}
+    <li>
+    {% endif %}
+      <a href="{{ site.url }}">Home</a>
+
+    </li>
+    {% for node in site.pages %}
+    {% if node.name != "index.html" and node.name != "feed.xml" %}             
+      {% if page.url == node.url %}
+        <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+      {% else %}
+        <li><a href="{{node.url}}">{{node.title}}</a></li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+    
+  </ul>
+</h3>
+</div>
