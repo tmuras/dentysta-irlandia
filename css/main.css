@@ -10,6 +10,56 @@ body {
   border-top: 1px solid #eee;
 }
 
+/* Logo customization */
+
+#banner-overlay {
+  width: 100% !important;
+  background-color: #4e5d6c;
+  position: absolute;
+  z-index: -5;
+}
+
+#big-banner {
+  height: 240px;
+  width: 100%;
+  padding: 50px;
+  position: relative;
+
+}
+
+#big-banner h1 {
+  font-size: 50px;
+  color: #2C2D4E;
+}
+
+#big-banner h2 {
+  color: #111;
+}
+
+#banner-background {
+  height: 240px;
+  width: 1140px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -3;
+  background-color: #4e5d6c;
+  background-image: url("/images/banner-bacground.jpg");
+  background-size: 1140px 240px;
+  border-radius: 120px;
+
+}
+
+#banner-picture {
+  height: 240px;
+  padding: 0px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -2;
+  opacity: 0.8;
+}
+
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
@@ -44,6 +94,7 @@ body {
   background-repeat: repeat-x; /* Repeat the gradient */
   border-bottom: 1px solid #d5d5d5;
 }
+
 .nav-justified > .active > a,
 .nav-justified > .active > a:hover,
 .nav-justified > .active > a:focus {
@@ -86,4 +137,16 @@ body {
     padding-right: 0;
     padding-left: 0;
   }
+}
+
+/* Map */
+
+#contact-map {
+  width: 600px;
+  height: 300px;
+  background-image: url("http://maps.googleapis.com/maps/api/staticmap?center=Main+Street,Bray,Irlandia&zoom=16&size=600x300&maptype=roadmap&sensor=false&markers=size:mid%7Ccolor:red%7CSuite+1,Main+Street,Bray,Irlandia");
+  display: block; 
+  margin-left: auto;
+  margin-right: 0px;
+  float: right;
 }

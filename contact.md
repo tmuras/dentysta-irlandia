@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Kontakt
-permalink: /kontak/
+permalink: /kontakt/
 ---
+<div id="contact-map"> </div>
 
 Dr Izabela Piotrowska  
 Town Dental Bray  
@@ -12,8 +13,6 @@ Bray,
 Co. Wicklow  
 tel. 01 2745111  
 <iza@dentysta-irlandia.eu>  
- 
----
 
 Gabinet znajduje się w centrum Bray, zaraz przy Mc'Donalds  
 
