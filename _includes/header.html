@@ -1,8 +1,5 @@
-<div class="masthead">
-  <div id="big-banner">
-    <img src="/images/dental-icon-hi.png" id="banner-picture"></img>
-    <div id="banner-background"> 
-    </div>
+<!-- <div class="masthead">
+  
     <div style="width: 650px;">
 
       <a href="{{ site.url }}">
@@ -10,7 +7,6 @@
       </a>
       <h2 class="text-warning">Polski dentysta w Irlandii<h2>
     </div>
-  </div>
   <h5>
   <ul class="nav nav-justified">
     {% if page.url == "/index.html" %}
@@ -33,5 +29,31 @@
     
   </ul>
 </h3>
+</div> -->
+<div class="blog-masthead">
+
+  <div class="container">
+    <a href="{{ site.url }}">
+        <h1 class="text-banner">www.dentysta-irlandia.eu <br>
+          <div id="page-logo"> </div>
+  <small>Polski dentysta w Irlandii</small></h1></a>
+
+    <nav class="blog-nav">
+      <div class="btn-group link-btns">
+        {% for node in site.pages %}
+          {% if node.name != "feed.xml" %}             
+            {% if page.url == node.url %}
+              <a href="{{node.url}}" type="button" class="blog-nav active btn btn-primary ">{{node.title}}</a>
+            {% else %}
+              <a href="{{node.url}}" type="button" class="blog-nav btn btn-default ">{{node.title}}</a>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
+  </div>
 </div>
+
+
+
 
