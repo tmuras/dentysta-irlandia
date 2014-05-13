@@ -2,10 +2,10 @@
 name: Dentysta Irlandia
 title: Dentysta Irlandia
 email: iza@dentysta-irlandia.eu
-description: "Lorem ipsum dolor, sit amet"
+description: "Dentysta Irlandia"
 baseurl: ""
-url: "http://localhost:4000"
-author: "annonymous"
+url: "http://dentysta-irlandia.eu"
+author: "Agile Sparkle"
 
 # Build settings
 markdown: kramdown
