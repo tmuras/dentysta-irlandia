@@ -1,35 +1,3 @@
-<!-- <div class="masthead">
-  
-    <div style="width: 650px;">
-
-      <a href="{{ site.url }}">
-        <h1 class="text-banner">www.dentysta-irlandia.eu</h1>
-      </a>
-      <h2 class="text-warning">Polski dentysta w Irlandii<h2>
-    </div>
-  <h5>
-  <ul class="nav nav-justified">
-    {% if page.url == "/index.html" %}
-    <li class="active">
-    {% else %}
-    <li>
-    {% endif %}
-      <a href="{{ site.url }}">Home</a>
-
-    </li>
-    {% for node in site.pages %}
-    {% if node.name != "index.html" and node.name != "feed.xml" %}             
-      {% if page.url == node.url %}
-        <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
-      {% else %}
-        <li><a href="{{node.url}}">{{node.title}}</a></li>
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-    
-  </ul>
-</h3>
-</div> -->
 <div class="blog-masthead">
 
   <div class="container">
