@@ -1,24 +1,36 @@
 <div class="blog-masthead">
-
   <div class="container">
-    <a href="{{ site.url }}">
-        <h1 class="text-banner">www.dentysta-irlandia.eu <br>
+    <div class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+        
+          <h1 class="text-banner"><a href="{{ site.url }}">www.dentysta-irlandia.eu </a><br>
           <div id="page-logo"> </div>
-  <small>Polski dentysta w Irlandii</small></h1></a>
-
-    <nav class="blog-nav">
-      <div class="btn-group link-btns">
-        {% for node in site.pages %}
-          {% if node.name != "feed.xml" %}             
-            {% if page.url == node.url %}
-              <a href="{{node.url}}" type="button" class="blog-nav active btn btn-primary ">{{node.title}}</a>
-            {% else %}
-              <a href="{{node.url}}" type="button" class="blog-nav btn btn-default ">{{node.title}}</a>
-            {% endif %}
-          {% endif %}
-        {% endfor %}
+          <small>Polski dentysta w Irlandii</small></h1>
+      
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            {% for node in site.pages %}
+              {% if node.name != "feed.xml" %}             
+                {% if page.url == node.url %}
+                  <li class="active"><a href="{{node.url}}" type="button" class="btn btn-primary">{{node.title}}</a></li>
+                {% else %}
+                  <li><a href="{{node.url}}" type="button" class="btn btn-default">{{node.title}}</a></li>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        
       </div>
-    </nav>
+    </div>  
   </div>
 </div>
 
