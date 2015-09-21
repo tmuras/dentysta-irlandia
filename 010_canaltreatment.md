@@ -7,7 +7,7 @@ permalink: /leczenie-kanalowe/
  Leczenie kanałowe jest konieczne w przypadku infekcji nerwu znajdującego się wewnątrz kanału zęba. Przyczyną infekcji jest najczęściej nieleczona próchnica lub urazy zębów. Objawami wskazującymi na potrzebę leczenia kanałowego jest ból sprowokowany zimnymi lub ciepłymi pokarmami, ból samoistny, ból nocny lub ból promieniujący a także ból zęba przy nagryzaniu. Leczenie polega na usunięciu zainfekowanej miazgi zęba ( nerwu). Jest to bardzo skuteczny i jedyny zabieg pozwalający na zachowanie własnego zęba. W przypadku nieleczonej infekcji, bakterie chorobotwórcze namnażają się wgłąb korzenia doprowadzając do infekcji kości co objawia się pojawieniem ropnia. Wówczas leczenie jest znacznie bardziej skomplikowane a odsetek powodzeń znacznie niższy.
  
 
-![Schemat zęba](/images/zab_schemat.jpg){: style="display: block; margin-left: auto; margin-right: auto;"}
+![Schemat zęba](/images/zab_schemat.jpg){: style="display: block; margin-left: auto; class:img-responsive; margin-right: auto;"}
  
 ^
 ###   Procedura:
